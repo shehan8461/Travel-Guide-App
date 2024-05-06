@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./home/home22.jpg'); /* Replace with the correct path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    color: #fff; /* Set the text color to be visible on the background */
+  }
+  
+  #main-topic {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #fff; /* Set the text color to be visible on the background */
+  }
+  
+  /* Styling for the images */
+  #home-img-main1,
+  #home-img-main2,
+  #home-img-main3,
+  #home-img-main4,
+  #background-image {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  #home-img-main1:hover,
+  #home-img-main2:hover,
+  #home-img-main3:hover,
+  #home-img-main4:hover,
+  #background-image:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Additional styling for other content on the page */
+  /* Add your styles for other elements on the page as needed */
+  /* Styling for the attractive images */
+#attractive-img1,
+#attractive-img2,
+#attractive-img3,
+#attractive-img4,
+#attractive-img5,
+#attractive-img6,
+#attractive-img7 {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Styling for the details paragraphs */
+#attractive-img1-details,
+#attractive-img2-details,
+#attractive-img3-details,
+#attractive-img4-details,
+#attractive-img5-details,
+#attractive-img6-details,
+#attractive-img7-details {
+  display: none;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+/* Show details on hover */
+#attractive-img1:hover + #attractive-img1-details,
+#attractive-img2:hover + #attractive-img2-details,
+#attractive-img3:hover + #attractive-img3-details,
+#attractive-img4:hover + #attractive-img4-details,
+#attractive-img5:hover + #attractive-img5-details,
+#attractive-img6:hover + #attractive-img6-details,
+#attractive-img7:hover + #attractive-img7-details {
+  display: block;
+}
+
+/* Scaling effect on hover for attractive images */
+#attractive-img1:hover,
+#attractive-img2:hover,
+#attractive-img3:hover,
+#attractive-img4:hover,
+#attractive-img5:hover,
+#attractive-img6:hover,
+#attractive-img7:hover {
+  transform: scale(1.1);
+}
+
+/* Additional styling for other content on the page */
+/* Add your styles for other elements on the page as needed */
+
+
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navigation styling */
+  nav {
+    background-color: #3498db;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+  
+  /* Main topic styling */
+  #main-topic {
+    color: #3498db;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Home images styling */
+  #home-img-main1,
+  #home-img-main2,
+  #home-img-main3,
+  #home-img-main4,
+  #background-image {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  #background-image {
+    width: 100%; /* Full width for background image */
+    height: auto;
+  }
+  
+  /* Attractive images styling */
+  #atrractive-img {
+    text-align: center;
+    color: #e74c3c;
+    margin-top: 20px;
+  }
+  
+  #attractive-img1,
+  #attractive-img2,
+  #attractive-img3,
+  #attractive-img4,
+  #attractive-img5,
+  #attractive-img6,
+  #attractive-img7 {
+   
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Attractive image details styling */
+  #attractive-img1-details,
+  #attractive-img2-details,
+  #attractive-img3-details,
+  #attractive-img4-details,
+  #attractive-img5-details,
+  #attractive-img6-details,
+  #attractive-img7-details {
+  display: none;
+    padding: 10px;
+    background-color: rgba(52, 152, 219, 0.8);
+    color: #fff;
+  }
+  
+  
+  
+  
+  
+  /* About section styling */
+  #about-name {
+    text-align: center;
+    color: #48a2dd;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 1px 2px rgba(52, 152, 219, 0.3);
+  }
+  
+  #about-details {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #191513;
+    text-align: justify;
+    margin-bottom: 40px;
+  }
+  
+  
+  /* More details table styling */
+  #more-details {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #more-details th {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  #more-details td {
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #more-details h4 {
+    color: #3498db;
+  }
+  
+  #more-details td:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* About web page table styling */
+  #about-web-page {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #about-web-page th, #about-web-page td {
+    padding: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #about-web-page th {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  #about-web-page td:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  #about-web-page td:last-child {
+    font-weight: bold;
+  }
+  
+  #about-web-page td a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  #about-web-page td a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  #main-topic {
+    text-align: center;
+    color: #3498db;
+    font-size: 36px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(52, 152, 219, 0.5);
+  }
+  #atrractive-img {
+    text-align: center;
+    color: #3ce7e7;
+    font-size: 28px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(231, 76, 60, 0.3);
+  }
+
+  

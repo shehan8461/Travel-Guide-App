@@ -1,0 +1,36 @@
+.user-update {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  .user-update label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .user-update input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  .user-update button {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .user-update button:hover {
+    background-color: #2980b9;
+  }
+  
